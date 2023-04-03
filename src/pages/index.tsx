@@ -4,10 +4,36 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Header from '../../components/Header'
 import Navbar from '../../components/Navbar'
+import requests from '../../utils/requests'
+import Results from '../../components/Results'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+interface ResultObj {
+  adult: boolean,
+  backdrop_path: string,
+  genre_ids: number[],
+  id: number,
+  media_type: string,
+  original_language: string,
+  original_title: string,
+  overview: string,
+  popularity: number,
+  poster_path: string,
+  release_date: string,
+  title: string,
+  video: boolean,
+  vote_average: number,
+  vote_count: number
+}
+
+type MyProps = {
+  results: ResultObj[]
+}
+
+// export default function Home({ results: ResultObj[] }) {
+  const Home: React.FC<MyProps> = ({ results }) => {
+  // console.log(results)
   return (
     <>
       <Head>
@@ -19,7 +45,24 @@ export default function Home() {
       <main>
         <Header />
         <Navbar />
+        <Results results={results} />
       </main>
     </>
   )
+}
+
+export default Home
+
+export async function getServerSideProps(context: any) {
+  const genre = context.query.genre || "fetchTrending"
+  const request = await fetch(`
+  https://api.themoviedb.org/3${requests[genre].url}
+  `)
+  .then(response => response.json())
+
+  return{
+    props:{
+      results: request.results,
+    }
+  }
 }
