@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "./Card";
 
 interface ResultObj {
     adult: boolean,
@@ -24,10 +25,10 @@ type MyProps = {
 
 const Results: React.FC<MyProps> = ({ results }) => {
     return (
-        <div>
+        <div className="bg-gray-700 text-gray-200 select-none sm:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
             {results.map((result) => {
                 return(
-                    <h1>{result.title}</h1>
+                    <Card key={result.id} result={result} />
                 )
             })}
         </div>
