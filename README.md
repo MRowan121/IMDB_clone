@@ -38,6 +38,8 @@
    ```
 
 ## Demonstration
+![imdb_clone_responsive](https://user-images.githubusercontent.com/110955503/229685221-2664cffa-3f48-4292-991c-67b24ecd79b0.gif)
+![imdb_clone_multipage](https://user-images.githubusercontent.com/110955503/229685228-2108b076-94b6-4720-8708-a7df8a64fbe5.gif)
 
 
 ## Contributors
