@@ -31,9 +31,7 @@ type MyProps = {
   results: ResultObj[]
 }
 
-// export default function Home({ results: ResultObj[] }) {
   const Home: React.FC<MyProps> = ({ results }) => {
-  // console.log(results)
   return (
     <>
       <Head>
