@@ -16,13 +16,13 @@ const data: IRequest = {
       title: "Top Rated",
       url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`
   },
-  fetchUpcoming:{
-    title: "Upcoming",
-    url: `/movie/upcoming?api_key=${API_KEY}&language=en-US`
-  },
   fetchNowPlaying:{
     title: "Now Playing",
     url: `/movie/now_playing?api_key=${API_KEY}&language=en-US`
+  },
+  fetchUpcoming:{
+    title: "Upcoming",
+    url: `/movie/upcoming?api_key=${API_KEY}&language=en-US`
   },
 }
 
