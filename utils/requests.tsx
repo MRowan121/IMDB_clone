@@ -19,7 +19,11 @@ const data: IRequest = {
   fetchUpcoming:{
     title: "Upcoming",
     url: `/movie/upcoming?api_key=${API_KEY}&language=en-US`
-  }
+  },
+  fetchNowPlaying:{
+    title: "Now Playing",
+    url: `/movie/now_playing?api_key=${API_KEY}&language=en-US`
+  },
 }
 
 export default data
