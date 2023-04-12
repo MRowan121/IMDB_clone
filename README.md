@@ -1,7 +1,17 @@
 # IMDB - Clone
 
 ## Technologies Used
-[![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?align=center&titleAlign=center&lineCount=2&theme=github_dark&hideTitle=true&line1=next.js,NEXT.JS,ffffff;react,REACT,61DAFB;reactrouter,REACT%20ROUTER,CA4245;typescript,TypeScript,3178C6;&line2=javascript,JavaScript,F7DF1E;tailwindcss,Tailwind%20CSS,06B6D4;html5,HTML5,E34F26;cypress,CYPRESS,ffffff;)](https://github-readme-tech-stack.vercel.app/api/cards?align=center&titleAlign=center&lineCount=2&theme=github_dark&hideTitle=true&line1=next.js,NEXT.JS,ffffff;react,REACT,61DAFB;reactrouter,REACT%20ROUTER,CA4245;typescript,TypeScript,3178C6;&line2=javascript,JavaScript,F7DF1E;tailwindcss,Tailwind%20CSS,06B6D4;html5,HTML5,E34F26;cypress,CYPRESS,ffffff;)
+<div>
+  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" width="100" height="30" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" width="100" height="30"/>
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" width="100" height="30"/>
+  <img src="https://img.shields.io/badge/-react-333333?logo=react&style=for-the-badge" width="100" height="30"/>
+  <br>
+  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" width="100"  height="30"/>
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" width="100" height="30" />
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" width="100" height="30"/>
+  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" width="100" height="30" />
+</div>
 
 ## Deployable Link
 [IMDB_clone](https://imdb-clone-mrowan121.vercel.app/)
